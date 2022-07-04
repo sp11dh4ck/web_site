@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(206, 206, 206, 0.308);
+    color: #1b2029;
+
+    font: normal 16px 'Roboto', sans-serif;
+}
+
+h1 {
+    color: green;
+}
