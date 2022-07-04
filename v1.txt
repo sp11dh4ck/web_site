@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>speedhack</title>
+	</head>
+	<body>
+		<img src="images/Логотип sp1edh4ck.pn" width="100" alt="Where image?"/>
+		<h1>Гнетов Захар</h1>
+		<p><em>Я занимаюсь программированием</em></p>
+		<p><em>Знаю такие языки, как:</em></p>
+			<ul>
+				<li><strong>Python</strong></li>
+				<li><strong>C++</strong></li>
+				<li><strong>Html</strong></li>
+			</ul>
+		
+		<h1>Связь со мной</h1>
+			<ul>
+				<li><a href="https://vk.com/sp1edh4ck" target="_blank"><strong>VK</strong></a></li>
+			</ul>
+
+		<h1>Опыт работы</h1>
+			<table>
+				<tr>
+					<td>Google</td>
+					<td>Python backend developer</td>
+					<td>2009-2022</td>
+				</tr>
+			</table>
+	</body>
+</html>
