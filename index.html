@@ -1,58 +1,70 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>speedhack</title>
-		<link rel="stylesheet" href="css/styles.css">
-	</head>
-	<body>
-		<img src="images/Логотип sp1edh4ck.png" width="100" alt="Where image?"/>
-		<h1>Гнетов Захар</h1>
-		<p><em>Я занимаюсь программированием</em></p>
-		<p><em>Знаю такие языки, как:</em></p>
-			<ul>
-				<li><strong>Python</strong></li>
-				<li><strong>C++</strong></li>
-				<li><strong>Html</strong></li>
-			</ul>
-		
-		<hr>
 
-		<h1>Контакты</h1>
+<head>
+	<meta charset="UTF-8">
+	<title>speedhack</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="info">
+			<img src="images/Логотип sp1edh4ck.png" alt="Where image?" class="avatar" />
+			<h1>Гнетов Захар</h1>
+			<p><em>Программист</em></p>
+			<p><em>Языки: Python, C++, HTML</em></p>
+		</div>
+
+		<div class="social">
+			<h3>Контакты</h3>
 			<ul>
 				<li><a href="https://vk.com/sp1edh4ck" target="_blank"><strong>VK</strong></a></li>
 			</ul>
+		</div>
 
-		<hr>
-
-		<h1>Опыт работы</h1>
-			<table>
+		<div class="card bg-yellow">
+			<h3>Опыт работы</h3>
+			<table class="table_resum">
 				<tr>
 					<td>Google</td>
 					<td>Python backend developer</td>
-					<td>2009-2022</td>
+					<td>2009 - 2015</td>
+				</tr>
+				<tr>
+					<td>Yandex</td>
+					<td>Python teamlid</td>
+					<td>2015 - now</td>
 				</tr>
 			</table>
-		
-		<hr>
+		</div>
 
-		<h1>Связь со мной</h1>
+		<div class="card bg-red">
+			<h3>Хобби</h3>
+			<ol>
+				<li>Спорт</li>
+				<li>Cybersport</li>
+			</ol>
+		</div>
+
+		<div class="contacts">
+			<h3>Связь со мной</h3>
 			<form action="/">
-				<label for="name">Ваше имя:</label>
-				<input type="text" id="name" placeholder="Введите ваше имя...">
-				<br>
+				<div class="form-group">
+					<label for="name">Ваше имя:</label>
+					<input type="text" id="name" placeholder="Введите ваше имя...">
+				</div>
+				<div class="form-group">
+					<label for="email">Ваш email:</label>
+					<input type="text" id="email" placeholder="Введите вашу почту...">
+				</div>
+				<div class="form-group">
+					<textarea id="message" cols="20" rows="5" placeholder="Обращение"></textarea>
+					<input type="submit" value="Отправить" class="submit-button">
+				</div>
+		</div>
+		</form>
+	</div>
+</body>
 
-				<label for="email">Ваш email:</label>
-				<input type="text" id="email" placeholder="Введите вашу почту...">
-				<br>
-
-				<label for="message">Ваше сообщение:</label>
-				<br>
-
-				<textarea id="message" cols="20" rows="5"></textarea>
-				<br>
-
-				<input type="submit" value="Отправить">
-			</form>
-	</body>
 </html>

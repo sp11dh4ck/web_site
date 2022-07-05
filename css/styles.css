@@ -1,10 +1,103 @@
 body {
-    background-color: rgba(206, 206, 206, 0.308);
-    color: #1b2029;
+    background-color: rgba(131, 116, 116, 0.308);
+    color: #243657;
 
-    font: normal 16px 'Roboto', sans-serif;
+    font: bold 16px 'Roboto', sans-serif;
 }
 
 h1 {
     color: green;
+}
+
+a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(212, 0, 255)
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    /* word-spacing: 5px; */
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.list li {
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.table_resum {
+    width: 100%;
+}
+
+.table_resum td {
+    padding-bottom: 10px;
+}
+
+.table_resum td:nth-child(3) {
+    color: rgb(170, 27, 51);
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.contacts h3 {
+    text-align: center;
+}
+
+.form-group {
+    margin: 5px;
+}
+
+.form-group label {
+    color: gray;
+}
+
+.form-group input,
+.form-group textarea {
+    background: rgba(255, 255, 255, 0.507);
+    width: 10%;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-group textarea {
+    text-align: left;
 }
