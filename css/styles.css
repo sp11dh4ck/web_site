@@ -20,24 +20,44 @@ a:hover {
 }
 
 .avatar {
-    width: 100px;
+    width: 120px;
     border-radius: 20px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
 .info {
     margin-bottom: 20px;
+    display: flex;
 }
 
-.info p {
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info .info-text p {
     color: #86898f;
     margin: 0;
-    /* word-spacing: 5px; */
+}
+
+.info-text {
+    margin-left: 30px;
+}
+
+.info-text h2 {
+    margin-bottom: 10px;
+}
+
+.social {
+    margin-left: 30px;
 }
 
 .container {
     max-width: 90%;
     margin: auto;
+    padding-top: 15px;
 }
 
 .bg-yellow {
@@ -95,9 +115,36 @@ a:hover {
     border: none;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
-    text-align: center;
 }
 
 .form-group textarea {
     text-align: left;
+}
+
+.row {
+    margin-bottom: 5px;
+    width: 80%;
+}
+
+.row input {
+    width: 50%;
+}
+
+.row > .form-group {
+    width: 20%;
+}
+
+.submit-button {
+    color: #111;
+    cursor: pointer;
+    margin-top: 5px;
+    display: flex;
+}
+
+.submit-button  {
+    justify-content: center;
+}
+
+.submit-button:hover {
+    opacity: 0.8;
 }
