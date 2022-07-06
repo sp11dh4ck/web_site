@@ -35,6 +35,10 @@ a:hover {
         text-align: center;
         display: block;
     }
+    /* .contacts {
+        text-align: center;
+        display: block;
+    } */
 }
 
 .info .info-text p {
@@ -99,7 +103,7 @@ a:hover {
     text-align: center;
 }
 
-.form-group {
+/* .form-group {
     margin: 5px;
 }
 
@@ -147,4 +151,4 @@ a:hover {
 
 .submit-button:hover {
     opacity: 0.8;
-}
+} */
