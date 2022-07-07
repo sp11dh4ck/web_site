@@ -35,6 +35,14 @@ a:hover {
         text-align: center;
         display: block;
     }
+    .info .info-text {
+        margin: 0;
+        padding: 0;
+    }
+    .info .social {
+        margin: 0;
+        padding: 0;
+    }
     /* .contacts {
         text-align: center;
         display: block;
