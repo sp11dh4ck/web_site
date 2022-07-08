@@ -46,6 +46,9 @@ a:hover {
 }
 
 @media (max-width: 1000px) {
+    body {
+        width: 200%;
+    }
     .info {
         text-align: center;
         display: block;
