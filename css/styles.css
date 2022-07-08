@@ -2,7 +2,7 @@ body {
     background-color: #d6d6d6;
     color: #243657;
     margin-top: 50px;
-    font: bolder 16px 'Roboto', sans-serif;
+    font: bold 16px 'Roboto', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -45,7 +45,7 @@ a:hover {
     display: flex;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .info {
         text-align: center;
         display: block;
